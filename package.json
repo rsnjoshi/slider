@@ -1,0 +1,29 @@
+{
+  "name": "story_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "backbone": "^1.4.0",
+    "backbone.babysitter": "^0.1.12",
+    "backbone.marionette": "^4.1.2",
+    "backbone.wreqr": "^1.4.0",
+    "jquery": "^3.5.1",
+    "pug": "^3.0.0",
+    "underscore": "^1.10.2",
+    "underscore-template-loader": "^1.1.0"
+  },
+  "devDependencies": {
+    "multi-loader": "^0.1.0",
+    "pug-loader": "^2.4.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

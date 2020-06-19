@@ -1,0 +1,108 @@
+body {
+  color: blue;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.content .arrows {
+  font-size: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 40px;
+}
+
+.content .announcementContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Arial;
+}
+
+.content .announcementContent .announcementUnit {
+  display: block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.content .announcementContent .announcementUnit img {
+  width: 150px;
+  height: auto;
+}
+
+.content .announcementContent .announcementUnit .heading {
+  word-wrap: break-word;
+  width: 700px;
+  font-size: 40px;
+  margin: 5px;
+}
+
+.content .announcementContent .announcementUnit .description {
+  word-wrap: break-word;
+  font-size: 31px;
+  width: 700px;
+  height: 200px;
+  margin: 5px;
+}
+
+.content .announcementContent .circleSet {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .announcementContent .circleSet .circleUnit {
+  color: #ae93ee;
+  font-size: 50px;
+  margin: 5px;
+  -webkit-transition: color 0.6s ease;
+  transition: color 0.6s ease;
+}
+
+.content .announcementContent .circleSet .circleUnit .announcementCircle {
+  -webkit-transition: color 0.6s ease;
+  transition: color 0.6s ease;
+}
+
+.content .announcementContent .circleSet .circleUnit .announcementCircle:hover {
+  color: #6997ec;
+}
+
+.content .announcementContent .circleSet .circleUnit .active {
+  color: blue;
+}
+/*# sourceMappingURL=styles.css.map */

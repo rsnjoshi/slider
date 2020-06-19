@@ -1,0 +1,58 @@
+$primary-color: blue
+body
+    color: $primary-color
+
+.content
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: 2px;
+    .arrows
+        font-size: 50px;
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-bottom: 40px;
+    .announcementContent
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Arial;
+        .announcementUnit
+            display: block;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            height:479px;
+            img
+                width: 150px;
+                height: auto;
+            .heading
+                word-wrap: break-word;
+                width: 700px;
+                font-size: 40px;
+                margin: 5px
+            .description
+                word-wrap: break-word;
+                font-size: 31px;
+                width: 700px;
+                height: 200px;
+                margin: 5px
+        .circleSet
+            margin-top: 5px;
+            display: flex;
+            align-items: center;
+            .circleUnit
+                color: rgb(174, 147, 238);
+                font-size: 50px;
+                margin: 5px;
+                transition: color 0.6s ease;
+                .announcementCircle
+                    transition: color 0.6s ease;
+                    &:hover
+                        color: rgb(105, 151, 236);
+                .active
+                    color: $primary-color;
