@@ -15,7 +15,7 @@
     "backbone.marionette": "^4.1.2",
     "backbone.wreqr": "^1.4.0",
     "jquery": "^3.5.1",
-    "pug": "^3.0.0",
+    "pug": "^3.0.1",
     "underscore": "^1.10.2",
     "underscore-template-loader": "^1.1.0"
   },
